@@ -18,3 +18,4 @@ After this step, you have successfully loaded the table into the database.
 After you are done exploring 
 1. Right click, click on inspect, then navigate to console and the log data on the console can be be saved by right clicking within the console window and selecting "save as" in the menu ([instructions here. ](https://support.shortpoint.com/support/solutions/articles/1000222881-save-google-chrome-browser-s-console-file))
 2. Please fill out this survey [click here](https://www.surveymonkey.com/r/7M6YJGB)
+3. Don't forget to send me the log data via email or slack :)
