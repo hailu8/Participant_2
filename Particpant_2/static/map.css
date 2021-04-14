@@ -1,0 +1,157 @@
+.header {
+    text-align: center;
+    color: black;
+}
+
+#yearDropdown {
+    /* background: #5a5a5a; */
+    background-color: #7f9e80;
+    color: white;
+}
+
+#yearDropdown:hover {
+    background-color: #7f9e80;
+    color: white;
+}
+
+#legends {
+    overflow: hidden;
+    position: relative;
+    top: 340px;
+    left: 230px;
+    z-index: 800;
+    font-size: 12px;
+    /* color:gray;
+  background: #eeeeee; */
+    height: 40px;
+    width: 60px;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+.legendLinear text {
+    font-size: 12px;
+}
+
+
+/* .d3-tip-map {
+    /* line-height: 1; */
+
+
+/* font-weight: bold;
+padding: 10px; */
+
+
+/* background-color: rgba(0, 0, 0, 0.8); */
+
+
+/* color: rgb(22, 20, 20); */
+
+
+/* border-radius: 1px;
+
+
+} */
+
+
+/* Creates a small triangle extender for the tooltip */
+
+
+/* .d3-tip-map:after {
+    font-size: 10px;
+    width: fit-content;
+    color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    text-align: center;
+} */
+
+
+/* Style northward tooltips differently */
+
+
+/* .d3-tip-map.n:after {
+    margin: -1px 0 0 0;
+    top: 100%;
+    left: 0;
+} */
+
+
+/*label{
+    position: absolute;
+    font-size: 18px;
+    top: 150px;
+    left: 145px;
+    right: 20px;
+    text-transform: uppercase;
+    color: #000000;
+  }*/
+
+#zoom-in:hover {
+    background: #4CAF50;
+    color: white;
+}
+
+#zoom-out:hover {
+    /* background:rgb(10, 97, 2); */
+    background: #4CAF50;
+    color: white;
+}
+
+#resetMap:hover {
+    /* background:rgb(10, 97, 2); */
+    background: #4CAF50;
+    color: white;
+}
+
+#zoom-in {
+    position: static;
+    transition-duration: 0.4s;
+    top: -310px;
+    left: 0px;
+    z-index: 600;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    background: rgb(17, 14, 158);
+    height: 40px;
+    width: 60px;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+#zoom-out {
+    position: static;
+    top: -310px;
+    left: 0px;
+    font-size: 12px;
+    z-index: 600;
+    transition-duration: 0.4s;
+    color: rgb(255, 255, 255);
+    background: rgb(17, 14, 158);
+    height: 40px;
+    width: 60px;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+#resetMap {
+    position: static;
+    top: -310px;
+    left: 0px;
+    font-size: 12px;
+    z-index: 600;
+    color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+    background: rgb(17, 14, 158);
+    height: 40px;
+    width: 60px;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
+    padding: 0px;
+}

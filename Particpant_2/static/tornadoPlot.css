@@ -1,0 +1,95 @@
+.newbar--positive {
+    fill: steelblue;
+}
+
+.newbar--negative {
+    fill: brown;
+}
+
+.float-child {
+    width: 30%;
+    float: left;
+}
+
+.float-baby {
+    width: 50%;
+    float: right;
+}
+
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+#yearDropdown {
+    width: fit-content;
+    left: 230px;
+}
+
+.radiobutton {
+    margin: 10px;
+    width: 40%;
+    float: right;
+}
+
+.radiobutton label {
+    display: inline-block;
+    width: fit-content;
+    font-family: sans-serif, Arial;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.radiobuttonlabel:hover {
+    color: #dfd;
+}
+
+.radiobutton input[type="radio"]:checked+label {
+    color: rgb(168, 47, 47);
+}
+
+.bar--positive {
+    fill: #9BCCF5;
+}
+
+.bar--negative {
+    fill: pink;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    shape-rendering: crispEdges;
+}
+
+.legend rect {
+    fill: white;
+    opacity: 0.8;
+}
+
+.tornado-svg {
+    width: 25%;
+    position: static;
+}
+
+.d3-tip-tornado {
+    position: absolute;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    font: 12px sans-serif;
+    border: 0px;
+    pointer-events: none;
+}
+
+.d3-tip-map {
+    /* position: absolute; */
+    /* text-align: center; */
+    /* width: fit-content; */
+    /* height: fit-content; */
+    line-height: 1;
+    font: 15px sans-serif;
+    padding: 12px;
+    border-radius: 2px;
+    pointer-events: none;
+}
